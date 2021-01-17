@@ -7,7 +7,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
-namespace intuit_interview_a4a_server
+namespace Bolt
 {
     public class Program
     {
