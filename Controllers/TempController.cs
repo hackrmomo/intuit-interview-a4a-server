@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
-namespace MavenlinkUnify.WebAdmin.Controllers
+namespace Bolt.Controllers
 {
     [ApiController]
     [Route("temp")]
