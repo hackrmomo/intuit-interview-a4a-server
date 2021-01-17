@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
+using System.Threading.Tasks;
+using Bolt.Services;
 
 namespace Bolt.Controllers
 {
@@ -8,10 +9,18 @@ namespace Bolt.Controllers
     public class TempController : ControllerBase
     {
 
-        [HttpGet]
-        public OkObjectResult GetTemp()
+        private ITempService _tempService;
+
+        public TempController(ITempService tempService)
         {
-            return Ok("Bolt Services Active");
+            _tempService = tempService;
+        }
+
+        [HttpGet]
+        public async Task<OkObjectResult> GetTemp()
+        {
+            var result = await _tempService.BasicOperation();
+            return Ok(result);
         }
     }
 }
