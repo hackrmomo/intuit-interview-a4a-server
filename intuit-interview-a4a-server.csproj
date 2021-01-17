@@ -4,6 +4,5 @@
     <RootNamespace>intuit_interview_a4a_server</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="MySql.Data" Version="8.0.22"/>
   </ItemGroup>
 </Project>
