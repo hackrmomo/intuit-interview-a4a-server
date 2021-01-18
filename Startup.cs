@@ -25,7 +25,7 @@ namespace Bolt
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
-            services.AddTransient<ITempService, TempService>();
+            services.AddTransient<ICalculatorService, CalculatorService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -35,6 +35,15 @@ namespace Bolt
             {
                 app.UseDeveloperExceptionPage();
             }
+            app.UseCors(
+                options =>
+                {
+                    options
+                    .AllowAnyOrigin()
+                    .AllowAnyMethod()
+                    .AllowAnyHeader();
+                }
+            );
 
             app.UseHttpsRedirection();
             app.Use((context, next) => { context.Request.Scheme = "https"; return next(); });
