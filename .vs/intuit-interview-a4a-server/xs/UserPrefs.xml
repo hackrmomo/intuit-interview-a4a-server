@@ -1,0 +1,33 @@
+﻿<Properties StartupConfiguration="{719557A9-4685-4FEB-88A3-A77D3C3C30A6}|Unit Tests">
+  <MonoDevelop.Ide.Workbench ActiveDocument="intuit-interview-a4a-server-test/Controllers/CalculatorController.Test.cs">
+    <Files>
+      <File FileName="intuit-interview-a4a-server-test/Controllers/CalculatorController.Test.cs" Line="10" Column="23" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="intuit-interview-a4a-server" expanded="True">
+            <Node name="intuit-interview-a4a-server" expanded="True" />
+            <Node name="intuit-interview-a4a-server-test" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="CalculatorController.Test.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="intuit-interview-a4a-server" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.intuit-interview-a4a-server-test PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
